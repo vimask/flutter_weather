@@ -1,0 +1,6 @@
+module google_api_availability {
+  umbrella header "google_api_availability-umbrella.h"
+
+  export *
+  module * { export * }
+}

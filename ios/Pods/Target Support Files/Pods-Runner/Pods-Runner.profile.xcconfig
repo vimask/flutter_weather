@@ -1,0 +1,14 @@
+EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../.symlinks/flutter/ios"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Flutter" "${PODS_ROOT}/Headers/Public/geolocator" "${PODS_ROOT}/Headers/Public/google_api_availability" "${PODS_ROOT}/Headers/Public/permission_handler"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/geolocator" "${PODS_CONFIGURATION_BUILD_DIR}/google_api_availability" "${PODS_CONFIGURATION_BUILD_DIR}/permission_handler"
+OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/geolocator/geolocator.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/google_api_availability/google_api_availability.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/permission_handler/permission_handler.modulemap" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Flutter" -isystem "${PODS_ROOT}/Headers/Public/geolocator" -isystem "${PODS_ROOT}/Headers/Public/google_api_availability" -isystem "${PODS_ROOT}/Headers/Public/permission_handler"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"geolocator" -l"google_api_availability" -l"permission_handler" -framework "Flutter"
+OTHER_SWIFT_FLAGS = $(inherited) -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/geolocator/geolocator.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/google_api_availability/google_api_availability.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/permission_handler/permission_handler.modulemap" $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+SWIFT_INCLUDE_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/geolocator" "${PODS_CONFIGURATION_BUILD_DIR}/google_api_availability" "${PODS_CONFIGURATION_BUILD_DIR}/permission_handler"
