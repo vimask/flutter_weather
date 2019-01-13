@@ -2,7 +2,7 @@
 
 Weather App Case Study 
 
-<img src="https://github.com/vimask/flutter_weather/blob/master/screenshots/weather_app.gif" alt="Flutter Weather App Video Animation" height="700" width="400">
+<img src="https://github.com/vimask/flutter_weather/blob/master/screenshots/weather_app.gif" alt="Flutter Weather App Video Animation" height="400">
 
 ## Getting Started
 
