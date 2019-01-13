@@ -1,9 +1,9 @@
 # flutter_weather
 
 Weather App Case Study 
-_ Get user location.
-_ Call APIs to get weather data.
-_ Show on Listview.
+- Get user location.
+- Call APIs to get weather data.
+- Show on Listview.
 
 <img src="https://github.com/vimask/flutter_weather/blob/master/screenshots/weather_app.gif" alt="Flutter Weather App Video Animation" height="400">
 
