@@ -1,6 +1,0 @@
-module geolocator {
-  umbrella header "geolocator-umbrella.h"
-
-  export *
-  module * { export * }
-}

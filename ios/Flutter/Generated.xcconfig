@@ -1,7 +1,7 @@
 // This is a generated file; do not edit or check into version control.
 FLUTTER_ROOT=/Users/vxvinh/flutter
-FLUTTER_APPLICATION_PATH=/Users/vxvinh/Workplace/flutter/flutter_weather
-FLUTTER_TARGET=/Users/vxvinh/Workplace/flutter/flutter_weather/lib/main.dart
+FLUTTER_APPLICATION_PATH=/Users/vxvinh/Workplace/flutter/flutter_weather_github
+FLUTTER_TARGET=/Users/vxvinh/Workplace/flutter/flutter_weather_github/lib/main.dart
 FLUTTER_BUILD_DIR=build
 SYMROOT=${SOURCE_ROOT}/../build/ios
 FLUTTER_FRAMEWORK_DIR=/Users/vxvinh/flutter/bin/cache/artifacts/engine/ios

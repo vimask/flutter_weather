@@ -1,6 +1,0 @@
-module permission_handler {
-  umbrella header "permission_handler-umbrella.h"
-
-  export *
-  module * { export * }
-}
